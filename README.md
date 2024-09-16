@@ -44,3 +44,21 @@ Before feeding the audio data into the model, we performed the following preproc
 - Feature Extraction: Features such as ZCR, MFCC, Chroma, and Mel Spectrogram were extracted from the audio files using the librosa library.
 - Data Augmentation: We applied noise injection, time stretching, pitch shifting, and shifting to increase the variety of training data.
 - Normalization: StandardScaler was used to scale the features.
+
+## Model
+We built a CNN model for classification with the following architecture:
+- 4 Conv1D layers with ReLU activation and MaxPooling
+- Dropout layers to prevent overfitting
+- A fully connected Dense layer
+- Output layer with Softmax for multi-class classification
+The model was trained using the Adam optimizer and categorical crossentropy as the loss function.
+
+## Data Augmentation
+To enhance the dataset and improve the model's performance, the following data augmentation techniques were applied:
+- Adding white noise
+- Time-stretching
+- Pitch shifting
+- Shifting the audio
+
+## Conclusion
+The model successfully classifies emotions from speech with good accuracy. Data augmentation played a crucial role in improving the model's performance by making the model more robust.
