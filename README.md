@@ -39,7 +39,3 @@ The dataset used for this project is the **RAVDESS** dataset, which includes rec
 - Numpy
 - Scikit-learn
 
-To install the required packages, run:
-
-```bash
-pip install -r requirements.txt
