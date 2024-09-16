@@ -39,3 +39,5 @@ The dataset used for this project is the **RAVDESS** dataset, which includes rec
 - Numpy
 - Scikit-learn
 
+## Preprocessing
+Before feeding the audio data into the model, we performed the following preprocessing steps:
