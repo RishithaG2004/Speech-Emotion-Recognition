@@ -9,8 +9,6 @@ This project focuses on identifying emotions from speech using deep learning tec
 - [Preprocessing](#preprocessing)
 - [Model](#model)
 - [Data Augmentation](#data-augmentation)
-- [Results](#results)
-- [Live Demo](#live-demo)
 - [Conclusion](#conclusion)
 
 ## Project Overview
