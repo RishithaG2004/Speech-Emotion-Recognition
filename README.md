@@ -41,3 +41,6 @@ The dataset used for this project is the **RAVDESS** dataset, which includes rec
 
 ## Preprocessing
 Before feeding the audio data into the model, we performed the following preprocessing steps:
+- Feature Extraction: Features such as ZCR, MFCC, Chroma, and Mel Spectrogram were extracted from the audio files using the librosa library.
+- Data Augmentation: We applied noise injection, time stretching, pitch shifting, and shifting to increase the variety of training data.
+- Normalization: StandardScaler was used to scale the features.
